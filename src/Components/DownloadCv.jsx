@@ -11,6 +11,7 @@ color:#ffffff;
 display: flex;
 gap: 10px;
 align-items: center;
+margin-bottom: 1rem;
 cursor: pointer;
 &:hover{
     border: #5bee5c solid;

@@ -2,7 +2,14 @@ import styled from "styled-components"
 import DownloadCV from "./DownloadCv"
 
 const Container = styled.div`
-max-width: 60%;
+max-width: 100%;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+@media (max-width: 768px) {
+    width: 100%;
+  }
 `
 const Title = styled.h1`
   background: linear-gradient(to bottom, #ffcc33 50%, #ffffff 50%);

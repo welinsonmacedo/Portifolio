@@ -15,6 +15,7 @@ const Title = styled.h1`
 `
 const ContainerSkills = styled.div`
 display:grid;
+width: 100%;
 grid-template-columns: 1fr 1fr ;
 gap:1rem;
 margin: 50px 0 50px 0;
