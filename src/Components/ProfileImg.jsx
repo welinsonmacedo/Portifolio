@@ -10,6 +10,7 @@ const Image = styled.img`
 
   @media (max-width: 768px) {
     width: 175px;
+    box-shadow: 2px 2px 2px 2px #6e67ad;
   }
 `;
 
@@ -28,6 +29,7 @@ margin-bottom: 4rem;
   @media (max-width: 768px) {
     width: 140px;
     height: 207px;
+    box-shadow: none;
   }
 `;
 

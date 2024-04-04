@@ -4,6 +4,7 @@ import CardProject from "./Card"
 
 const Container = styled.div`
  padding: 10px;
+ padding-top: 2rem;
 `
 const ContainerProjects = styled.div`
 display: flex;

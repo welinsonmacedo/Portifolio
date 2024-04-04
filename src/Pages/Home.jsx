@@ -19,12 +19,16 @@ display: flex;
 flex-direction: row;
 justify-content: flex-start;
 gap: 1rem;
-padding-top: 2rem;
+padding-top: 3rem;
 flex-wrap: wrap;
+@media (max-width: 768px) {
+   display: flex;
+   flex-direction: column-reverse;
+  }
 
 `;
 const ViewVh = styled.div`
-padding-top: 5rem;
+padding-top: 2rem;
 min-height: 100vh;
 `
 
