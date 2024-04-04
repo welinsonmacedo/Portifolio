@@ -12,7 +12,7 @@ const ContainerS = styled.div`
   display: flex;
   padding: 5px;
   z-index: 1000;
-  background-color: #b2dfdf;
+  background-color: #d4dfdf;
 
   @media (max-width: 768px) {
     flex-direction: column;

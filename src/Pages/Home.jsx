@@ -18,7 +18,7 @@ const Header = styled.div`
 display: flex;
 flex-direction: row;
 justify-content: flex-start;
-gap: 3rem;
+gap: 1rem;
 padding-top: 2rem;
 flex-wrap: wrap;
 

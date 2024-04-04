@@ -3,7 +3,7 @@ import CardProject from "./Card"
 
 
 const Container = styled.div`
- padding: 50PX;
+ padding: 10px;
 `
 const ContainerProjects = styled.div`
 display: flex;
