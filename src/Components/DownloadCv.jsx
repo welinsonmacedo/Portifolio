@@ -2,19 +2,20 @@ import styled from "styled-components";
 
 
 const Button = styled.button`
-background-color: transparent;
-border: #ffcc33 2px solid;
+background-color: #ffffff;
+border: #6e52af 2px solid;
 border-radius: 20px;
 padding: 10px;
 font-weight: 600;
-color:#ffffff;
+color:#000000;
 display: flex;
 gap: 10px;
 align-items: center;
 margin-bottom: 1rem;
 cursor: pointer;
 &:hover{
-    border: #5bee5c solid;
+    border: #040804 solid;
+    background-color: #d4ebde;
 }
 `
 const DownloadCV = () => {

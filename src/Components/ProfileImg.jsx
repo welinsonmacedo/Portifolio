@@ -1,12 +1,12 @@
 import styled from "styled-components"
 
 const Image = styled.img`
-  width: 350px;
+  width: 250px;
   object-fit: cover;
   position: relative;
   top: -28px;
-  border-radius: 10px;
-  
+  border-radius: 20px;
+  box-shadow: 5px 5px 5px 5px #6e67ad;
 
   @media (max-width: 768px) {
     width: 175px;
@@ -14,10 +14,11 @@ const Image = styled.img`
 `;
 
 const Container = styled.div`
-  width: 280px;
-  height: 415px;
+  width: 140px;
+  height: 270px;
   margin-top: 2rem;
-  background-color: #f7db15;
+  background-color:#5c5964 ;
+  box-shadow: 10px 20px 25px 30px #5c5964;
   padding: 0.2rem;
   border-radius: 0 0 20px 0;
 

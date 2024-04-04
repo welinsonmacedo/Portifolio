@@ -4,14 +4,15 @@ import { FaLinkedin, FaWhatsapp, FaGithub } from 'react-icons/fa';
 
 const SocialLinksContainer = styled.div`
   display: flex;
-  justify-content: center;
-  gap: 10px;
-  margin: 25px;
+  justify-content: space-evenly;
+  gap: 30px;
+  margin: 30px;
+ 
 `;
 
 const SocialLink = styled.a`
-  color: #c7b8b8;
-  font-size: 24px;
+  color: #6d5f5f;
+  font-size: 30px;
   transition: color 0.3s ease;
 
   &:hover {

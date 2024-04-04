@@ -7,10 +7,11 @@ const Container = styled.div`
  padding: 50PX;
 `
 const Title = styled.h1`
- text-align: center;
- background: linear-gradient(to right, #ffcc33 50%, #ffffff 10%);
+ text-align: left;
+ background: linear-gradient(to left, #260672 95%, #000000 0%);
   -webkit-background-clip: text;
   color: transparent;
+  margin-bottom: 3rem;
  
 `
 const ContainerSkills = styled.div`

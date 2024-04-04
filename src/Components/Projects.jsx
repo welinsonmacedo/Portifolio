@@ -3,7 +3,7 @@ import CardProject from "./Card"
 
 
 const Container = styled.div`
-
+ padding: 50PX;
 `
 const ContainerProjects = styled.div`
 display: flex;
@@ -14,8 +14,8 @@ justify-content: space-evenly;
 gap: 3rem;
 `
 const Title = styled.h1`
- text-align: center;
- background: linear-gradient(to right, #ffcc33 50%, #ffffff 10%);
+ text-align: left;
+ background: linear-gradient(to left, #260672 95%, #000000 0%);
   -webkit-background-clip: text;
   color: transparent;
   margin-bottom: 3rem;
